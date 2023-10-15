@@ -1,0 +1,18 @@
+﻿<Application x:Class="EditMyLibrary__EF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EditMyLibrary__EF"
+             StartupUri="\Views\AuthorViews\AuthorView.xaml"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="\Templates\sButton.xaml" />
+                <ResourceDictionary Source="\Templates\CreatedBy_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\sCircleButton.xaml" />
+                <ResourceDictionary Source="\Templates\sMenuName_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\sWindow.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

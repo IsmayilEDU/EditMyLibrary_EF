@@ -1,0 +1,68 @@
+﻿<Window x:Class="EditMyLibrary__EF.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EditMyLibrary__EF.Views"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" AllowsTransparency="True"
+        Width="520" Height="620" WindowStyle="None" Background="Transparent">
+    <Border CornerRadius="30" Background="White" >
+        <Grid>
+            
+            <!--#region Rows-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <!--#endregion-->
+            
+            <!--#region Title of window-->
+            <TextBlock Style="{StaticResource sMenuName_TextBlock}" Text="Library" />
+            <Button Style="{StaticResource sCircleButton}" Click="Button_Click">
+                <fa:ImageAwesome Icon="Times" Style="{StaticResource sIcon}"/>
+            </Button>
+            <!--#endregion-->
+            
+            <!--#region Menu items-->
+            <Grid Grid.Row="1">
+
+                <!--#region Columns-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <!--#endregion-->
+
+                <!--#region Menu items-->
+                <StackPanel Margin="20">
+                    <Button Style="{StaticResource sButton}" Content="Authors"/>
+                    <Button Style="{StaticResource sButton}" Content="Book"/>
+                    <Button Style="{StaticResource sButton}" Content="Categories"/>
+                    <Button Style="{StaticResource sButton}" Content="Departments"/>
+                    <Button Style="{StaticResource sButton}" Content="Faculties"/>
+                    <Button Style="{StaticResource sButton}" Content="Groups"/>
+                    <Button Style="{StaticResource sButton}" Content="Libs"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="20">
+                    <Button Style="{StaticResource sButton}" Content="Presses"/>
+                    <Button Style="{StaticResource sButton}" Content="S_Cards"/>
+                    <Button Style="{StaticResource sButton}" Content="Students"/>
+                    <Button Style="{StaticResource sButton}" Content="T_Cards"/>
+                    <Button Style="{StaticResource sButton}" Content="Teachers"/>
+                    <Button Style="{StaticResource sButton}" Content="Themes"/>
+                </StackPanel>
+                <!--#endregion-->
+            </Grid>
+            <!--#endregion-->
+            
+            <!--#region Created by-->
+            <TextBlock Grid.Row="2" Style="{StaticResource CreatedBy_TextBlock}" />
+            <!--#endregion-->
+            
+        </Grid>
+        
+    </Border>
+</Window>
