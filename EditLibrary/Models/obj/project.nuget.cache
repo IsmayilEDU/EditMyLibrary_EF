@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ymuyv6kMNbUcTwNAh48rn2fJTR6tDHsngxLM3wfYi8RET/Lw8ccozDRbQk6VrBpY3yQF7kyVJXPLVmq3AjxpfA==",
+  "dgSpecHash": "KLBSNqbDfVtb/y2FRmKnDuw6YbMERhvi/Tw9tSv7aei+Qr50l5r481+4D/bEDYZyjzCF92/O0zq+1P70A2AGJQ==",
   "success": true,
-  "projectFilePath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

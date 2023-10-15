@@ -1,5 +1,5 @@
-﻿using ConsoleApp1.Models.Entities;
-using EditMyLibrary__EF.ViewModel.AuthorViewModels;
+﻿using EditMyLibrary__EF.ViewModel.AuthorViewModels;
+using Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

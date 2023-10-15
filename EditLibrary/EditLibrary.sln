@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{CD6B323F-B470-4F96-8EA1-E2B37AA7EDC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF", "WPF\WPF.csproj", "{CD6B323F-B470-4F96-8EA1-E2B37AA7EDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{0CA24798-BFB2-4C00-BD03-3FDD41039AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{B37D23F2-91D7-4F2E-B38C-5F339E4AC571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CD6B323F-B470-4F96-8EA1-E2B37AA7EDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD6B323F-B470-4F96-8EA1-E2B37AA7EDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD6B323F-B470-4F96-8EA1-E2B37AA7EDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA24798-BFB2-4C00-BD03-3FDD41039AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA24798-BFB2-4C00-BD03-3FDD41039AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA24798-BFB2-4C00-BD03-3FDD41039AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA24798-BFB2-4C00-BD03-3FDD41039AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37D23F2-91D7-4F2E-B38C-5F339E4AC571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37D23F2-91D7-4F2E-B38C-5F339E4AC571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37D23F2-91D7-4F2E-B38C-5F339E4AC571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37D23F2-91D7-4F2E-B38C-5F339E4AC571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

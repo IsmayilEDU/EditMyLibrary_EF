@@ -1,12 +1,9 @@
 ﻿using EditMyLibrary__EF.Models;
 using EditMyLibrary__EF.Views.AuthorViews;
 using GalaSoft.MvvmLight.Command;
-using System;
+using Models.Entities;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows;
 
 namespace EditMyLibrary__EF.ViewModel.AuthorViewModels
@@ -32,9 +29,9 @@ namespace EditMyLibrary__EF.ViewModel.AuthorViewModels
 
         public AuthorViewModel()
         {
+            Authors = MyLibrary.Authors;
             UpdateCommand = new(update);
             DeleteCommand = new(delete);
-            Authors = MyLibrary.Authors;
         }
 
         #region Functions of command

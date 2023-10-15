@@ -1,11 +1,7 @@
-﻿using ConsoleApp1.Contexts;
-using ConsoleApp1.Models.Entities;
-using System;
+﻿
+using Models.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Documents;
+
 
 namespace EditMyLibrary__EF.Models
 {
@@ -27,7 +23,6 @@ namespace EditMyLibrary__EF.Models
         public static List<Teacher>? Teachers { get; set; }
         public static List<Theme>? Themes { get; set; }
         #endregion
-        
         
     }
 }

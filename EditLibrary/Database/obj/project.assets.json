@@ -7101,11 +7101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Database\\Database.csproj",
+      "projectUniqueName": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Database\\Database.csproj",
+      "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Database\\Database.csproj",
       "packagesPath": "C:\\Users\\MSI NOTEBOOK\\.nuget\\packages\\",
-      "outputPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Database\\obj\\",
+      "outputPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI NOTEBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7122,8 +7122,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Models\\Models.csproj": {
-              "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 7 - IRepository\\LibraryWithRepository\\LibraryWithIRepository\\Models\\Models.csproj"
+            "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj": {
+              "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj"
             }
           }
         }

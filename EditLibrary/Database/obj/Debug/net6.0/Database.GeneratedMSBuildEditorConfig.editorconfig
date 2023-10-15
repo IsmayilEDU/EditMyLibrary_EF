@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Database
-build_property.ProjectDir = C:\Ismayil\PROJECTS\StepIT\8.ADO.NET\Lesson 7 - IRepository\LibraryWithRepository\LibraryWithIRepository\Database\
+build_property.ProjectDir = C:\Ismayil\PROJECTS\StepIT\8.ADO.NET\Lesson 5 - Fluent Api\EditMyLibrary_EF\EditLibrary\Database\
