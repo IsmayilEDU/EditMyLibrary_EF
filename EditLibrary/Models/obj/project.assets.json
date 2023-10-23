@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MSI NOTEBOOK\\.nuget\\packages\\": {}
+    "C:\\Users\\kerim_tq34\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\kerim_tq34\\Desktop\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\MSI NOTEBOOK\\.nuget\\packages\\",
-      "outputPath": "C:\\Ismayil\\PROJECTS\\StepIT\\8.ADO.NET\\Lesson 5 - Fluent Api\\EditMyLibrary_EF\\EditLibrary\\Models\\obj\\",
+      "projectPath": "C:\\Users\\kerim_tq34\\Desktop\\EditMyLibrary_EF\\EditLibrary\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\kerim_tq34\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kerim_tq34\\Desktop\\EditMyLibrary_EF\\EditLibrary\\Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MSI NOTEBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kerim_tq34\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

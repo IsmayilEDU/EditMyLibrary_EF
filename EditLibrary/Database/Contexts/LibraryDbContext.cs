@@ -10,7 +10,7 @@ namespace Database.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=DESKTOP-0V84BDI\\SQLEXPRESS;Initial Catalog=Library;Integrated Security=True;Connect Timeout=30;Encrypt=False;");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=STHQ012E-10;Initial Catalog=Library;User ID=admin;Password=admin;Connect Timeout=30;Encrypt=False");
             base.OnConfiguring(optionsBuilder);
         }
 

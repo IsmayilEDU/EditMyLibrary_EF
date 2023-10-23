@@ -17,7 +17,7 @@ namespace Models.Entities
         #endregion
 
         #region Navigation properties
-        public Faculty Faculty { get; set; }
+        public virtual Faculty Faculty { get; set; }
         public virtual ICollection<Student> Students { get; set; }
         #endregion
     }

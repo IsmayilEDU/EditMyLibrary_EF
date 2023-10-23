@@ -47,7 +47,7 @@ namespace EditMyLibrary__EF {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.1.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.7.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -65,7 +65,7 @@ namespace EditMyLibrary__EF {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/EditMyLibrary__EF;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -79,7 +79,7 @@ namespace EditMyLibrary__EF {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.1.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.7.0")]
         public static void Main() {
             EditMyLibrary__EF.App app = new EditMyLibrary__EF.App();
             app.InitializeComponent();
